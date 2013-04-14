@@ -4,7 +4,9 @@ itunes2dropbox
 Share the current playing song or selected songs from iTunes to your Dropbox public folder.
 A public link will be copied to the clip board for instant sharing.
 
-**Use at your own risk and responsibility.**
+**DISCLAIMER: Use at your own risk and responsibility. The author of
+  this script does not take any responsibility for its usage by other
+  persons than himself.**
 
 Installation
 ------------
@@ -30,4 +32,23 @@ song will be copied to your public Dropbox folder. If iTunes isn't
 playing, one or more selected songs will be copied. Only one public
 link will be copied to the clipboard for sharing with your friends.
 
+Problems
+--------
+The script assumes the path to your Dropbox folder is the default that
+Dropbox uses during installation. To change it, change the following
+lines in the script accordingly: 
 
+    set myPath to (path to home folder) as string
+	set myPath to myPath & "Dropbox:Public:"
+        
+Alfred 
+------
+I use this script with
+[Alfred](http://www.alfredapp.com/)'s HotKey feature and have put it under
+Cmd-Option-S.
+
+Thanks 
+------ 
+Thanks to [@instantypo](http://www.twitter.com/instantypo), a friendly dogmatic
+Flemmish Catholic convert on Twitter, who gave me the idea to write
+this script. My first Applescript experience on my first Macbook.
