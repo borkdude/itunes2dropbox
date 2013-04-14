@@ -1,9 +1,8 @@
--- Michiel Borkent, michielborkent@gmail.com, 11 september 2011
--- version 0.1
+-- DISCLAIMER: use at own risk and responsibility
 -- copies the currently playing track, or if no track is playing, the selected track (only 1) from iTunes to the Public Dropbox folder 
 -- and copies a link to the clipboard which you can share in Twitter, Facebook, etc
--- The Dropbox link is generated from the name of this script, so rename the script to 3914693.scpt if your Dropbox-number is 3914693, etc.
--- The script assumes a default location of the Dropbox folder.
+-- The Dropbox link is generated from the name of this script, so save the script as 3914693.scpt from the Applescript editor if your Dropbox-number is 3914693.
+-- The script assumes a default location of the Dropbox folder, so change when you do not use Dropbox's default..
 -- This script can be used in combination with Alfred, so sharing your track is done with only one keystroke to copy to public folder and generate link.
 
 tell application "Finder"

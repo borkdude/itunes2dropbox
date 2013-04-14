@@ -28,10 +28,12 @@ The number in my case is `3914693`, your number will be different.
 
 Usage
 ----
+
 In case a song is playing in iTunes and the script is executed, the
 song will be copied to your public Dropbox folder. If iTunes isn't
-playing, one or more selected songs will be copied. Only one public
-link will be copied to the clipboard for sharing with your friends.
+playing, a selected song will be copied. Only one song should be
+selected. The public link will be copied to the clipboard for
+sharing with your friends.
 
 Problems
 --------
