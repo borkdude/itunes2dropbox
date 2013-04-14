@@ -3,6 +3,7 @@ itunes2dropbox
 
 Share the current playing song or selected songs from iTunes to your Dropbox public folder.
 A public link will be copied to the clip board for instant sharing.
+Written in applescript, so Mac only. 
 
 **DISCLAIMER: Use at your own risk and responsibility. The author of
   this script does not take any responsibility for its usage by other
